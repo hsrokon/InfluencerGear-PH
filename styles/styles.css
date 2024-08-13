@@ -1,6 +1,6 @@
 body {
     font-family: Poppins, sans-serif;
-    margin: 0 4em;
+    margin: 0 6em;
 }
 
 a {
@@ -8,10 +8,13 @@ a {
     color: black;
 }
 
+
+/* header-section  */
 .header {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3em 0;
 }
 
@@ -29,4 +32,37 @@ a {
 .header-right-section img {
     width: 24PX;
 
+}
+
+
+/* first-section */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.txt1 {
+    font-size: 3rem;
+    font-weight: 600;
+    max-width: 15em;
+}
+
+.txt2 {
+    font-weight: 500;
+    max-width: 40em;
+}
+
+.pre-book {
+    border: none;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 1.7em;
+    background-color: pink;
+}
+
+.first-section-right {
+    background: url(../images/Circle\ design.svg);
 }
