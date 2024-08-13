@@ -1,0 +1,32 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0 4em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+
+.web-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.header-right-section {
+    display: flex;
+    gap: 1.6em;
+    font-weight: 600;
+}
+
+.header-right-section img {
+    width: 24PX;
+
+}
