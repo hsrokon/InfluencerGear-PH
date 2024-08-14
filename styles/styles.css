@@ -68,7 +68,9 @@ a {
     color: white;
 }
 .pre-book:hover {
-    background-color:rgb(187, 39, 155) ;
+    background-color:rgb(189, 77, 96) ;
+    cursor: pointer;
+    /* color: rgb(55, 55, 55); */
 }
 
 .first-section-right {
@@ -83,14 +85,14 @@ a {
     /* gap: 4em; */
     justify-content: center;
     align-items: center;
-    margin-top: 4em;
+    margin-top: 5em;
 
     /* box-shadow: 0 30px 40px rgba(0,0,0,.1); */
     /* for fading border  */
      border:  2px solid rgb(218, 221, 223);
     /* border-left: 150px solid transparent;
     border-right: 150px solid transparent; */
-    padding: 2.3em;
+    padding: 3.6em;
 
     /* for marquee animation  */
     position: relative;
@@ -124,12 +126,12 @@ a {
     animation-iteration-count: infinite;
 }
 
-/* Duration*Delay-1 */
 .item1 {
     animation-delay: -25.7;
 }
 .item2 {
     /* animation-delay: calc((30s / 7) * (7-2)* -1); */
+    /* Duration*Delay-1 */
     animation-delay:-21.4s ;
 }
 .item3 {
@@ -146,4 +148,113 @@ a {
 }
 .item7 {
     animation-delay: 4.2s;
+}
+
+
+/* third-section */
+.third-section {
+    margin-top: 6.6em;
+}
+
+.txt3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+/* ---grid--- */
+.grid-section {
+    display: grid;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; */
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em ;
+    width: auto;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+}
+
+.products {
+    width: fit-content;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.12);
+    padding: 1em;
+    border-radius: 9px;
+}
+
+.products img {
+    width: 20rem;
+}
+
+.grid-titles {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+.price {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stars-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 0;
+}
+.stars-section img {
+    width: 90px;
+    height: 30px;
+}
+
+.star-count {
+    margin-left: 0.4em;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(94, 92, 92);
+}
+
+.shifting,
+.payment-rotection {
+    margin-top: -0.9em;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-footer-right {
+    align-self: end;
+}
+
+.buy-now-btn {
+    margin-bottom: 0.55em;
+    border: none;
+    margin-left: 0;
+    width: 6.15em;
+    height: 2em;
+
+    cursor: pointer;
+    background-color: rgb(247, 172, 107);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.buy-now-btn:hover {
+    background-color: rgb(105, 104, 104);
+    color: white;
+}
+
+.see-more-txt {
+    text-align: right;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: rgb(224, 44, 109);
 }
