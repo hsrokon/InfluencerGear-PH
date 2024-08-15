@@ -231,7 +231,7 @@ a {
 }
 
 .shifting,
-.payment-rotection {
+.payment-protection {
     line-height: 1;
     /* margin-top: 1em; */
     font-size: 0.95rem;
@@ -275,4 +275,42 @@ a {
     font-size: 1.15rem;
     font-weight: 700;
     color: rgb(224, 44, 109);
+}
+
+
+
+/* last-section */
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6em;
+    margin: 7.3em 0 4.8em 4.8em;
+
+}
+
+.featured-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.join-now-button {
+    background-color: rgb(224, 44, 109);
+    border: none;
+    width: 8.4em;
+    height: 2.7em;
+    font-size: 1em;
+    color: white;
+    /* border-radius: 4px; */
+}
+
+.featured-des {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: gray;
+}
+.join-now-button:hover {
+    background-color:rgb(189, 77, 96) ;
+    cursor: pointer;
 }
