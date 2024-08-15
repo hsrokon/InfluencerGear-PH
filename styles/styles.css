@@ -14,7 +14,9 @@
 body {
     font-family: Poppins, sans-serif;
     /* margin: 0 8em; */
+}
 
+.main {
     /* better way of doing web width  */
     width: 82%;
     margin-inline: auto;
@@ -303,15 +305,15 @@ a {
     color: white;
     /* border-radius: 4px; */
 }
+.join-now-button:hover {
+    background-color:rgb(189, 77, 96) ;
+    cursor: pointer;
+}
 
 .featured-des {
     font-size: 0.95rem;
     font-weight: 600;
     color: gray;
-}
-.join-now-button:hover {
-    background-color:rgb(189, 77, 96) ;
-    cursor: pointer;
 }
 
 
@@ -337,6 +339,7 @@ a {
 
 .footer-flex img {
     width: 1.5em;
-    background-color: white;
+    background-color: rgb(227, 224, 224);
+    box-shadow: 0px 0px 4px rgb(250, 248, 248) ;
     border-radius: 25%;
 }
