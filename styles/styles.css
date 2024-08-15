@@ -1,3 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
 body {
     font-family: Poppins, sans-serif;
     /* margin: 0 8em; */
@@ -59,6 +72,7 @@ a {
 }
 
 .pre-book {
+    margin-top: 1.25em;
     border: none;
     padding: 0.6em 1em;
     font-size: 1em;
@@ -158,8 +172,9 @@ a {
 
 .txt3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
+    margin-bottom: 1.2em;
 }
 /* ---grid--- */
 .grid-section {
@@ -170,8 +185,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 2em ;
     width: auto;
-    margin-left: 5.5em;
-    margin-right: 5.5em;
+    margin: auto 5.5em;
 }
 
 .products {
@@ -218,7 +232,8 @@ a {
 
 .shifting,
 .payment-rotection {
-    margin-top: -0.9em;
+    line-height: 1;
+    /* margin-top: 1em; */
     font-size: 0.95rem;
     font-weight: 600;
     color: gray;
@@ -234,25 +249,28 @@ a {
 }
 
 .buy-now-btn {
-    margin-bottom: 0.55em;
+    /* margin-bottom: 0.55em; */
     border: none;
     margin-left: 0;
     width: 6.15em;
     height: 2em;
 
     cursor: pointer;
-    background-color: rgb(247, 172, 107);
+    background-color: orange;
     font-size: 1rem;
     font-weight: 500;
     border-radius: 5px;
 }
 
 .buy-now-btn:hover {
-    background-color: rgb(105, 104, 104);
-    color: white;
+    background-color: rgb(244, 206, 172);
+    /* color: white; */
 }
 
 .see-more-txt {
+    margin-top: 1em;
+    /* margin-left: 5em; */
+
     text-align: right;
     font-size: 1.15rem;
     font-weight: 700;
