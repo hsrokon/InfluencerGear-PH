@@ -14,7 +14,6 @@
 body {
     font-family: Poppins, sans-serif;
     /* margin: 0 8em; */
-    margin-bottom: 10em;
 
     /* better way of doing web width  */
     width: 82%;
@@ -313,4 +312,31 @@ a {
 .join-now-button:hover {
     background-color:rgb(189, 77, 96) ;
     cursor: pointer;
+}
+
+
+/* footer-section */
+.footer-section {
+    margin-top: 3em;
+    background-color: rgb(9, 9, 47);
+    width: 100%;
+    text-align: center;
+    padding: 3em;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.footer-flex img {
+    width: 1.5em;
+    background-color: white;
+    border-radius: 25%;
 }
